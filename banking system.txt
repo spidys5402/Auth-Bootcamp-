@@ -1,35 +1,35 @@
 Online Banking System
 🔹 1. Public Access (No authentication)
 
-a)Anyone can visit the bank’s homepage, read about services, and check branch locations.
+    a)Anyone can visit the bank’s homepage, read about services, and check branch locations.
 
-b)No login is required.
+    b)No login is required.
 
 🔹 2. User-Level Access (Authentication needed)
 
-a)A customer logs in with username & password (hashed in DB, verified with JWT).
+    a)A customer logs in with username & password (hashed in DB, verified with JWT).
 
-b)Can view account balance, transfer money, download statements.
+    b)Can view account balance, transfer money, download statements.
 
-c)Access is only to their own data.
+    c)Access is only to their own data.
 
 🔹 3. Admin-Level Access
 
-a)Bank employees (admins) log in with special roles.
+     a)Bank employees (admins) log in with special roles.
 
-b)They can manage user accounts, approve loans, and monitor transactions.
+     b)They can manage user accounts, approve loans, and monitor transactions.
 
-c)Access is wider than normal users, but still controlled.
+     c)Access is wider than normal users, but still controlled.
 
-🔹 4. Super Admin / Root Access
+4. Super Admin / Root Access
 
-a)The system’s super admin (like head office IT/security team) has full control:
+  a)The system’s super admin (like head office IT/security team) has full control:
 
-b)Can create/delete admins,
+    *Can create/delete admins,
 
-Change system configurations,
+    *Change system configurations,
 
-Access all customer data if required.
+    *Access all customer data if required.
 
-This is the highest privilege, rarely used.
+    *This is the highest privilege, rarely used.
 
